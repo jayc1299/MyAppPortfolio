@@ -1,0 +1,72 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	tools:context=".MainActivity"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			style="@style/mainHeader"
+			android:text="@string/main_title" />
+
+		<TextView
+			android:id="@+id/main_spotify_streamer"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			style="@style/mainButton"
+			android:layout_marginTop="30dp"
+			android:text="@string/main_btn_spotify_text" />
+
+		<TextView
+			android:id="@+id/main_scores"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			style="@style/mainButton"
+			android:layout_marginTop="20dp"
+			android:text="@string/main_btn_scores_text" />
+
+		<TextView
+			android:id="@+id/main_library"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			style="@style/mainButton"
+			android:layout_marginTop="20dp"
+			android:text="@string/main_btn_library_text" />
+
+		<TextView
+			android:id="@+id/main_bigger"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			style="@style/mainButton"
+			android:layout_marginTop="20dp"
+			android:text="@string/main_btn_bigger_text" />
+
+		<TextView
+			android:id="@+id/main_reader"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			style="@style/mainButton"
+			android:layout_marginTop="20dp"
+			android:text="@string/main_btn_reader_text" />
+
+		<TextView
+			android:id="@+id/main_capstone"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			style="@style/mainButton"
+			android:layout_marginTop="20dp"
+			android:text="@string/main_btn_capstone_text" />
+	</LinearLayout>
+</ScrollView>
